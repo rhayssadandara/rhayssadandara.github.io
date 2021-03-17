@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(30, 144, 255, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 44.5rem;
+    height: 27rem;
+    background-color: rgba(28, 28, 28, 0.95);
+    border-radius: 8px;
+}
+.main-section-header    {
+    width: 100%;
+    height: 6vh;
+    background-color: rgb(232, 232, 232);
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    display: flex;
+}
+.main-header-reddot{
+    width: 14px;
+    height: 14px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 1rem 0 0 1rem;
+}
+.main-header-yellowdot{
+    width: 14px;
+    height: 14px;
+    background-color: rgb(235, 235, 17);
+    border-radius: 50%;
+    margin: 1rem 0 0 0.3rem;
+}
+.main-header-greendot{
+    width: 14px;
+    height: 14px;
+    background-color: rgb(40, 214, 40);
+    border-radius: 50%;
+    margin: 1rem 0 0 0.3rem;
+}
+.main-section-text{
+    height: 4rem;
+}
+.main-section-text-box1{
+    color: rgba(30, 144, 255, 0.6);
+    font-weight: 900;
+    font-size: 4rem;
+    margin: 1rem 0 0 3rem;
+}
+.main-section-text-box2{
+    width: 66%;
+    color: rgb(232, 232, 232);
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 2rem;
+    margin: 1rem 0 0 8rem;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    width: 14rem;
+    height: 3rem;
+    margin-top: 2.5rem;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 1.2rem;
+    background-color: salmon;
+}
+.btn a{
+    color: rgb(232, 232, 232);
+}
+.btn:hover{
+    background-color: rgba(30, 144, 255, 0.6);
+}

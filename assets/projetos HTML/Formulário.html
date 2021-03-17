@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Formulário</title>
+        <meta charset="UTF-8">
+        <style>
+            h1{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <main> <!--Conteúdo principal do corpo de uma página-->
+            <h1>Construindo formulários</h1>
+            <form> <!--Tag de criação de formulários-->
+                <h2>Input tipo texto: atributo para textos curtos</h2>
+                <input type="text" name="cidade" required> <br> <!--type="text": input para textos curtos// required: informa que esse formulário só poderá ser enviado se esse input for preenchido-->
+                <h2>Textarea: elemento para comentários longos, com mais de uma linha</h2>
+                <textarea name="comentário" placeholder="Comenta aí"></textarea> <br> <!--text area: elemento(caixa) para textos longos, com mais de uma linha// placeholder: deixa um texto fixo na caixa antes do usuário escrever-->
+                <h2>Input tipo radio: permite ao usuário selecionar uma de várias opções</h2>
+                <input type="radio" name="dia" value="segunda"> Segunda-feira <br> <!--type="radio": permite ao usuário selecionar uma de várias opções-->
+                <input type="radio" name="dia" value="terça" checked> Terça-feira <br> <!--checked: já deixa uma das opções previamente demarcada-->
+                <input type="radio" name="dia" value="quarta"> Quarta-feira <br>
+                <h2>Checkbox:permite ao usuário selecionar várias de um número limitado de opções.</h2>
+                <input type="checkbox" name="camisa" value="Tamanho P"> Segunda-feira <br>
+                <input type="checkbox" name="camisa" value="Tamanho M"> Terça-feira <br>
+                <input type="checkbox" name="camisa" value="Tamanho G"> Quarta-feira <br>
+                <h2>Select: elemento usado para criar uma lista do tipo drop-down</h2>
+                <select name="mês">
+                    <option value="Janeiro">Janeiro</option> <!--option: define as opções válidas na lista-->
+                    <option value="fevereiro" selected>Fevereiro</option> <!--selected: já deixa uma das opções selecionadas-->
+                    <option value="Março">Março</option>
+                </select>
+                <h2>Submit: define um botão de enviar </h2>
+                <input type="submit" name="Enviar" value="Enviar">
+            </form>
+            <!--Input: elemento usado para obter uma entrada (informação) do usuário. Não precisa de fechamento.// Type: atributo que define qual tipo de informação deve ser capturada pelo input// Name: identifica componentes do formulário no servidor-->
+        </main>
+    </body>
+</html>

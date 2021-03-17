@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Formulário</title>
+        <meta charset="UTF-8">
+        <style>
+            form { 
+              display: block;
+              margin-top: 10px;
+              margin-left: 70px;
+            }
+            </style>
+    </head>
+    <body>
+        <main>
+            <form>
+                <h1>Preenche aqui, mi parceire</h1>
+                <fieldset> <!--Fieldset: é usado pra agrupar elementos relacionados num formulário-->
+                    <legend>Dados Pessoais</legend> <!--Legend: título do fieldset-->
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" placeholder="Primeiro e segundo nome"> <br><br>
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input type="text" name="sobrenome" placeholder="Último nome"><br><br>
+                    <label for="sexo">Sexo:</label>
+                    <input type="radio" name="sexo" value="feminino"> Feminino
+                    <input type="radio" name= "sexo" value="masculino"> Masculino
+                    <input type="radio" name="sexo" value="outro"> Prefiro não responder <br><br>
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" placeholder="user@email.com"><br><br> <!--placeholder: deixa uma dica de como responder ao input-->
+                    <label for="senha">Senha:</label>
+                    <input type="password" name="senha" placeholder="*******">
+                    <label for="senha">Repita sua senha:</label>
+                    <input type="password" name="senha" placeholder="*******" required> <br><br> <!--required: torna obrigatória a resposta no input para q ela seja enviada-->
+                    <label for="tel">Telefone:</label>
+                    <input type="tel" name="tel"><br><br>
+                    <label for="cidade">Cidade:</label>
+                    <select name="cidade">
+                        <option value="rio" selected>Rio de Janeiro</option>
+                        <option value="petro">Petrópolis</option>
+                        <option value="nikiti">Niterói</option>
+                    </select> <br><br>
+                    <label for="estado">Estado:</label>
+                    <select name="estado">
+                        <option value="rio" selected>RJ</option>
+                        <option value="sampa">SP</option>
+                        <option value="minas">MG</option>
+                    </select> <br><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Comentários e preferências</legend>
+                    <label for="mensagem">Dúvidas? Sugestões?</label><br>
+                    <textarea name="comentário" placeholder="Comenta aí, pô!" disabled></textarea> <br><br> <!--disabled: deixa o input desativado-->
+                    <input type="checkbox" name="notificação" value="receber email"> Gostaria de receber notificações e e-mails do Vai na Web? <br><br>
+                    <input type="checkbox" name="notificação" value="termos"> Eu aceito os termos e condições de uso. <br><br>
+                </fieldset>
+                <input type="submit" name="enviar" value="Enviar">
+            </form>
+        </main>
+    </body>
+</html>
