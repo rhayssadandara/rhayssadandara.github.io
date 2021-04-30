@@ -1,0 +1,49 @@
+*{
+	padding: 0; 
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Laila', serif;
+	text-decoration: none;
+}
+/*Corpo*/
+body {
+	background-color: purple;
+}
+/*seção principal*/
+.main-section{
+	width: 94%;
+	height: 88vh;
+	margin: 35px;
+	background-color: white;
+	display: inline-flex;
+}
+/*bloco da imagem*/
+.block-image {
+	width: 50%;
+}
+.image {
+	width: 50vw;
+	height: 88vh;
+}
+/*Conteúdo principal e formulário*/
+.main-content{
+	width: 50%;
+	padding: 60px;
+	margin-left: 30px;
+	font-size: 16px;
+}
+.form-first-column{
+	display: inline-flex;
+	border: 0;
+}
+.form-second-column{
+	margin-left: 50px;
+	display: inline-flex;
+	border: 0;
+}
+hr {
+   color: purple;
+   background-color: purple;
+   width: 60px;
+   height: 5px;
+}

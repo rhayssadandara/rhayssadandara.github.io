@@ -1,0 +1,65 @@
+*{
+	box-sizing: border-box; 
+	margin: 0;
+	text-decoration: none; 
+	font-family: 'Handlee', cursive;
+}
+/*barra de navegação (início e contato)*/
+.navigation{
+	width: 95%;
+	height: 70px;
+	font-size: 27px;
+	color: #CD3278;
+	text-align: right;
+	padding: 20px;
+}
+
+.navigation-home, .navigation-contact {
+	margin-right: 10px;
+	margin-left: 10px;
+	font-weight: bold;
+}
+/*container principal*/
+.main-container{
+	display: flex;
+	width: 100%;
+}
+/*bloco da imagem*/
+.main-image{ 
+	border-radius: 50%;
+	border:5px solid purple;
+	width: 350px;
+	margin-left: 30%;
+	margin-top: 60px;
+}
+.main-container-block-image{
+	width: 45%;
+	margin-left: 50px;
+}
+/*bloco do texto de perfil*/
+.main-container-block-profile{
+	width: 45%;
+	padding: 90px;
+}
+h1 {
+	color: #CD3278;
+	font-size: 30px;
+}
+h2{
+	color: purple;
+	font-size: 25px;
+}
+p {
+	font-size: 18px;
+}
+/*rodapé (redes sociais)*/
+.footer{
+	display: flex;
+	justify-content: center;
+}
+.footer-icon{
+	width: 40px;
+	height: 40px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
