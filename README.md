@@ -28,6 +28,6 @@ Projeto criado com a intenção de estudar HTML, CSS e JS com pequenos desafios,
 
 ## Contact
 
-Rhayssa Dandara - [@rdan_dev](https://instagram.com/rdan_dev) - email [rhayssadandara98@gmail.com]
+Rhayssa Dandara - [@rhayssadandara](https://instagram.com/rhayssadandara) - email [rhayssadandara98@gmail.com]
 
 Project Link: [rhayssadandara.github.io](https://rhayssadandara.github.io)
