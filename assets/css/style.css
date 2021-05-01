@@ -14,72 +14,130 @@ body{
     align-items: center;
 }
 main{
-    width: 44.5rem;
-    height: 27rem;
+    width: 60vw;
+    height: 64vh;
     background-color: rgba(28, 28, 28, 0.95);
-    border-radius: 8px;
+    border-radius: 1.2vw;
 }
-.main-section-header    {
+
+.main-section-header{
     width: 100%;
     height: 6vh;
     background-color: rgb(232, 232, 232);
-    border-top-right-radius: 8px;
-    border-top-left-radius: 8px;
+    border-top-right-radius: 1.2vw;
+    border-top-left-radius: 1.2vw;
     display: flex;
 }
 .main-header-reddot{
-    width: 14px;
-    height: 14px;
+    width: 1vw;
+    height: 2vh;
     background-color: red;
     border-radius: 50%;
-    margin: 1rem 0 0 1rem;
+    margin: 2.3vh 0 0 1.5vw;
+    cursor: pointer;
 }
 .main-header-yellowdot{
-    width: 14px;
-    height: 14px;
+    width: 1vw;
+    height: 2vh;
     background-color: rgb(235, 235, 17);
     border-radius: 50%;
-    margin: 1rem 0 0 0.3rem;
+    margin: 2.3vh 0 0 1vw;
+    cursor: pointer;
 }
 .main-header-greendot{
-    width: 14px;
-    height: 14px;
+    width: 1vw;
+    height: 2vh;
     background-color: rgb(40, 214, 40);
     border-radius: 50%;
-    margin: 1rem 0 0 0.3rem;
+    margin: 2.3vh 0 0 1vw;
+    cursor: pointer;
 }
 .main-section-text{
-    height: 4rem;
+    height: 9.5vh;
 }
 .main-section-text-box1{
     color: rgba(30, 144, 255, 0.6);
     font-weight: 900;
-    font-size: 4rem;
-    margin: 1rem 0 0 3rem;
+    font-size: 3.7vw;
+    margin: 2.3vh 0 0 3.7vw;
+    cursor: pointer;
 }
 .main-section-text-box2{
     width: 66%;
     color: rgb(232, 232, 232);
     font-family: 'DotGothic16', sans-serif;
-    font-size: 2rem;
-    margin: 1rem 0 0 8rem;
+    font-size: 2.4vw;
+    margin: 7vh 0 0 11vw;
 }
+
 .button{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .btn{
-    width: 14rem;
-    height: 3rem;
-    margin-top: 2.5rem;
+    width: 17vw;
+    height: 7.2vh;
+    margin-top: 12vh;
     font-family: 'DotGothic16', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.5vw;
     background-color: salmon;
+    cursor: pointer;
 }
+
 .btn a{
     color: rgb(232, 232, 232);
 }
 .btn:hover{
     background-color: rgba(30, 144, 255, 0.6);
 }
+
+/* @media (max-width:768px){
+    main{
+        height: 40vh;
+    }
+    .btn{
+        margin-top: 7vh;
+        height: 6vh;
+    }
+    .main-header-greendot, .main-header-reddot, .main-header-yellowdot{
+        height: 1.5vh;
+    }
+    .main-section-text-box2{
+        margin-top: 3vh;
+    }
+}
+/* @media (min-width:425px){
+    main{
+        width:80vw;
+        height: 10vh;
+    }
+    .btn{
+        width: 25vw;
+        height: 4vh;
+        margin-top: 3vh;
+        font-size: 2.5vw;
+    }
+    .main-section-text-box2{
+       font-size: 3.2vw;
+       margin-top: 1.5vh;
+    }
+    .main-header-greendot, .main-header-reddot, .main-header-yellowdot{
+        height: 1vh;
+        margin-top: 1.5vh;
+    }
+    .main-section-header{
+        height: 4vh;
+    }
+}
+@media (min-width:320px){
+    main{
+        width:80vw;
+        height: 30vh;
+    }
+    .main-section-text-box2{
+       font-size: 3.5vw;
+       margin-top: 1.5vh;
+       text-align: center;
+    }
+} */ 
