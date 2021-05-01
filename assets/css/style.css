@@ -93,8 +93,9 @@ main{
 .btn{
     width: 17vw;
     height: 7.2vh;
-    margin-top: 11vh;
+    margin-top: 20vh;
     font-family: 'DotGothic16', sans-serif;
+    text-shadow: lightblue 1px 1px;
     font-size: 1.5vw;
     color: rgb(232, 232, 232);
     background-color: salmon;
@@ -166,8 +167,12 @@ main{
         height: 30vh;
     }
     .main-section-text-box2{
-       font-size: 3.5vw;
+       font-size: 4vw;
        margin-top: 1.5vh;
        text-align: center;
     }
+    @keyframes typing {
+    from { width: 0 }
+    to { width: 77% }
+}
 }  

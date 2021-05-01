@@ -28,6 +28,7 @@ Projeto criado com a intenção de estudar HTML, CSS e JS com pequenos desafios,
 * Display flex e posicionamento de caixas flexíveis
 * Design responsivo - adaptação de páginas para telas mobile e desktop
 * Limpeza e refatoração de códigos
+* Animação com @keyframe
 
 
 ## Contact
