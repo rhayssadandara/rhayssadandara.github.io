@@ -24,10 +24,12 @@ Projeto criado com a intenção de estudar HTML, CSS e JS com pequenos desafios,
 * Função do reset.css na construção de projetos
 * Estilização de cor e tipografia
 * Display inline, block e inline-block
+* Display flex e posicionamento de caixas flexíveis
+* Design responsivo - adaptação de páginas para telas mobile e desktop
 
 
 ## Contact
 
 Rhayssa Dandara - [@rhayssadandara](https://instagram.com/rhayssadandara) - email [rhayssadandara98@gmail.com]
 
-Project Link: [rhayssadandara.github.io](https://rhayssadandara.github.io)
+Online project: [rhayssadandara.github.io](https://rhayssadandara.github.io)
