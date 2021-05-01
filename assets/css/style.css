@@ -92,7 +92,7 @@ main{
     background-color: rgba(30, 144, 255, 0.6);
 }
 
-/* @media (max-width:768px){
+@media (max-width:768px){
     main{
         height: 40vh;
     }
@@ -140,4 +140,4 @@ main{
        margin-top: 1.5vh;
        text-align: center;
     }
-} */ 
+} 
