@@ -4,6 +4,7 @@
     padding: 0px;
     box-sizing: border-box;
     text-decoration: none;
+    outline: none;
 }
 body{
     width: 100vw;
@@ -15,14 +16,14 @@ body{
 }
 main{
     width: 60vw;
-    height: 64vh;
+    height: 70vh;
     background-color: rgba(28, 28, 28, 0.95);
     border-radius: 1.2vw;
 }
 
 .main-section-header{
     width: 100%;
-    height: 6vh;
+    height: 7vh;
     background-color: rgb(232, 232, 232);
     border-top-right-radius: 1.2vw;
     border-top-left-radius: 1.2vw;
@@ -52,22 +53,36 @@ main{
     margin: 2.3vh 0 0 1vw;
     cursor: pointer;
 }
-.main-section-text{
-    height: 9.5vh;
-}
+
 .main-section-text-box1{
     color: rgba(30, 144, 255, 0.6);
     font-weight: 900;
-    font-size: 3.7vw;
-    margin: 2.3vh 0 0 3.7vw;
+    font-size: 4vw;
+    margin: 2.5vh 0 0 3.7vw;
     cursor: pointer;
 }
 .main-section-text-box2{
     width: 66%;
     color: rgb(232, 232, 232);
     font-family: 'DotGothic16', sans-serif;
-    font-size: 2.4vw;
-    margin: 7vh 0 0 11vw;
+    font-size: 2.7vw;
+    margin: 5vh 0 0 11vw;
+
+    border-right: 0.2rem solid rgba(30, 144, 255, 0.6);
+    white-space: nowrap;
+    overflow: hidden;
+
+    animation:typing 5s steps(40, end),
+    blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgba(30, 144, 255, 0.6); }
 }
 
 .button{
@@ -78,26 +93,26 @@ main{
 .btn{
     width: 17vw;
     height: 7.2vh;
-    margin-top: 12vh;
+    margin-top: 11vh;
     font-family: 'DotGothic16', sans-serif;
     font-size: 1.5vw;
+    color: rgb(232, 232, 232);
     background-color: salmon;
     cursor: pointer;
-}
-
-.btn a{
-    color: rgb(232, 232, 232);
 }
 .btn:hover{
     background-color: rgba(30, 144, 255, 0.6);
 }
 
-@media (max-width:768px){
+@media screen and (max-width:768px){
     main{
-        height: 40vh;
+        height:50vh;
+    }
+    .main-section-header{
+        height: 5vh;
     }
     .btn{
-        margin-top: 7vh;
+        margin-top: 5vh;
         height: 6vh;
     }
     .main-header-greendot, .main-header-reddot, .main-header-yellowdot{
@@ -106,11 +121,12 @@ main{
     .main-section-text-box2{
         margin-top: 3vh;
     }
-}
- @media (min-width:425px){
+} 
+
+@media (max-width:425px){
     main{
         width:80vw;
-        height: 10vh;
+        height: 30vh;
     }
     .btn{
         width: 25vw;
@@ -130,7 +146,21 @@ main{
         height: 4vh;
     }
 }
-@media (min-width:320px){
+
+@media (max-width:375px){
+    main{
+        height: 30vh;
+    }
+    .main-header-greendot, .main-header-reddot, .main-header-yellowdot{
+        width: 1vw;
+    }
+    .main-section-text-box2{
+       font-size: 3.5vw;
+       text-align: center;
+    }
+}  
+
+@media (max-width:320px){
     main{
         width:80vw;
         height: 30vh;
@@ -140,4 +170,4 @@ main{
        margin-top: 1.5vh;
        text-align: center;
     }
-} 
+}  
