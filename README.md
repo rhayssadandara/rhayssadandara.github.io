@@ -1,6 +1,6 @@
 ## About The Project
 
-Projeto criado com a intenção de estudar HTML, CSS e JS com pequenos desafios, de maioria propostos pelo @vainaweb
+Projeto criado com a intenção de estudar HTML, CSS e JS com pequenos desafios, de maioria propostos e/ou inspirados pelo @vainaweb. Através desse projeto, é possível acompanhar meus conhecimentos já fixados em front-end. A intenção é que ele seja atualizado ao fim de cada mês de estudos, aprimorando e incrementando o design e o código.
  
 ### Built With
 
@@ -17,6 +17,7 @@ Projeto criado com a intenção de estudar HTML, CSS e JS com pequenos desafios,
 * Construção de tabela simples. Anotações sobre as funções da tag table.
 * Introdução e aprimoramento de formulários. Anotações sobre as funções dos elementos da tag form.
 * Adicionando mídias: imagens, vídeos, áudios e iframe.
+* A importância de códigos semânticos
   
 
 ### HTML & CSS
@@ -26,6 +27,7 @@ Projeto criado com a intenção de estudar HTML, CSS e JS com pequenos desafios,
 * Display inline, block e inline-block
 * Display flex e posicionamento de caixas flexíveis
 * Design responsivo - adaptação de páginas para telas mobile e desktop
+* Limpeza e refatoração de códigos
 
 
 ## Contact
